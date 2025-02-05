@@ -56,7 +56,7 @@ function Navbar({ setData, cart }) {
     <>
       <header className="sticky-top">
         <div className="nav-bar">
-          <Link to={'/'} className="brand"> <img src="../../public/App.png"  alt="icon" style={{ width: '40px', marginRight: '5px' }} /> E-Cart</Link>
+          <Link to={'/'} className="brand"> <img src="../../public/App.png"  alt="icon" style={{ width: '40px', marginRight: '5px' }} /> AgetWare</Link>
           <form onSubmit={handleSubmit} className="search-bar d-flex align-items-center">
             <div className="input-group">
               <input
