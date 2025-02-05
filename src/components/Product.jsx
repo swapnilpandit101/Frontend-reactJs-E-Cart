@@ -4,7 +4,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Product = ({ items, cart, setCart }) => {
-   
+
   const addToCart = (id, price, title, description, image) => {
     const obj = {
       id, price, title, description, image
@@ -62,8 +62,8 @@ const Product = ({ items, cart, setCart }) => {
                     />
                   </Link>
                   <div className="card-body">
-                    <h2 className="card-title">{product.title.substring(0, 20)}</h2>
-                    <h2 className="card-title">{product.category}</h2>
+                    <h4 className="card-title">{product.title.substring(0, 20)}</h4>
+                    {/* <h2 className="card-title">{product.category}</h2> */}
                     <p className="card-text">
                       {product.description.substring(0, 20)}
                     </p>
@@ -78,9 +78,9 @@ const Product = ({ items, cart, setCart }) => {
                         alignItems: "center",
                       }}
                     >
-                      <button className="btn btn-primary btn-sm">
+                      <button className="btn btn-primary btn-sm" style={{ marginRight: '12px' }}>
                         <strong>Price:</strong> ${product.price}
-                      </button>{" "}
+                      </button>
                       &nbsp;
                       <button
                         className="btn btn-warning btn-sm"
@@ -98,8 +98,10 @@ const Product = ({ items, cart, setCart }) => {
           })}
         </div>
       </div>
+
     </>
   );
 }
+
 
 export default Product;

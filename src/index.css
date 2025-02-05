@@ -1,9 +1,10 @@
 .nav-bar{
   display: flex;
   justify-content: space-between;
-  background-color: deeppink;
+  background-color: rgb(25, 31, 46);
   padding: 10px;
   color: white;
+  align-items: center;
 }
 .brand{
   font-weight: bolder;
@@ -16,6 +17,7 @@
 
 .search-bar{
   width: 60%;
+  margin-right: 10px;
 }
 
 .search-bar input{
@@ -40,7 +42,7 @@ input::placeholder{
   display: flex;
   justify-content: space-between;
   padding: 15px;
-  background-color: pink;
+  background-color: rgb(25, 31, 46);
   color: white;
   font-weight: bold;
 }
@@ -64,3 +66,6 @@ input::placeholder{
   align-items: center;
   gap:4rem */
 }
+
+
+

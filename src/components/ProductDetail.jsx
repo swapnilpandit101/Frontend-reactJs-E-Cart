@@ -62,10 +62,10 @@ const ProductDetail = ({ cart, setCart }) => {
         <div className="img mt-5">
           <img src={product.image} alt="" />
         </div>
-        <div className="text-center mt-5">
-          <h1 className="card-title">{product.title}</h1>
+        <div className="text-center mt-5 float-left">
+          <h3 className="card-title">{product.title}</h3>
           <p className="card-text">{product.description}</p>
-          <h2 className="card-title">{product.category}</h2>
+          <h4 className="card-title">{product.category}</h4>
           <p className="card-text">
             <strong>Rating:</strong> ⭐ {product.rating?.rate} (
             {product.rating?.count} reviews)
