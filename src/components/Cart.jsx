@@ -12,14 +12,14 @@ const Cart = ({ cart, setCart }) => {
 
   return (
     <div className="container my-5">
-      {cart.length === 0 ? (
+      {cart.length === 0 ? 
         <div className="text-center">
           <h1>Your Cart is Empty</h1>
           <Link to="/" className="btn btn-warning mt-3">
             Continue Shopping...
           </Link>
         </div>
-      ) : (
+       : 
         <>
           {cart.map((product, index) => (
             <div key={index} className="card mb-3">
@@ -51,7 +51,7 @@ const Cart = ({ cart, setCart }) => {
             </div>
           ))}
         </>
-      )}
+      }
 
       {/* Checkout and Clear Cart Buttons */}
       {cart.length > 0 && (
