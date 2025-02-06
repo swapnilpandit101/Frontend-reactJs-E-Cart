@@ -63,7 +63,6 @@ const Product = ({ items, cart, setCart }) => {
                   </Link>
                   <div className="card-body">
                     <h4 className="card-title">{product.title.substring(0, 20)}</h4>
-                    {/* <h2 className="card-title">{product.category}</h2> */}
                     <p className="card-text">
                       {product.description.substring(0, 20)}
                     </p>
