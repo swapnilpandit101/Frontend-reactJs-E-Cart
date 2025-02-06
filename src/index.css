@@ -62,10 +62,17 @@ input::placeholder{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  /* justify-content: center;
-  align-items: center;
-  gap:4rem */
+  
 }
 
 
-
+/* src-- 
+    Components-- 
+                Cart.jsx
+                Navbar.jsx
+                Product.jsx
+                ProductDetails.jsx
+                SearchItem.jsx
+    Mock-Data--
+                Data.jsx (in this items is created and export) */
+                           
